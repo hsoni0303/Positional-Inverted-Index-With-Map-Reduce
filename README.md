@@ -29,6 +29,7 @@ To run the program, follow these steps:
    
    ```bash
    $ pip install nltk
+   ```bash
 Additionally, download NLTK data using the following command:
 $ python -m nltk.downloader stopwords wordnet omw punkt
 3. **Run MapReduce Job**: Run the MapReduce job using Hadoop or a similar framework. Make sure to provide the paths to the input and output directories, as well as the mapper and reducer scripts.Example usage:
